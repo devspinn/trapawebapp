@@ -1,0 +1,112 @@
+﻿html{
+    height:100%;
+}
+body{
+    height:100% ;
+
+}
+
+.btn-sound {
+    color: #ffffff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+    width: 95%;
+    height: 20%;
+    max-height: 100px;
+    margin: 5px 5px 5px 5px;
+}
+
+    .btn-sound:hover,
+    .btn-sound:focus,
+    .btn-sound:active,
+    .btn-sound.active,
+    .open .dropdown-toggle.btn-success {
+        color: #ffffff;
+        background-color: #47a447;
+        border-color: #398439;
+    }
+
+    .btn-sound:active,
+    .btn-sound.active,
+    .open .dropdown-toggle.btn-success {
+        background-image: none;
+    }
+
+
+
+.category-label {
+    margin: 5px 5px 5px 5px;
+}
+
+.button-column{
+    height: calc(100% - 96px);
+}
+
+#button-row {
+    height: 100%
+
+}
+
+.col-lg-3 {
+    height:100%;
+
+}
+
+#buttonSection{
+    height: 100%
+
+}
+
+.btn-big {
+    color: #ffffff;
+    width: 95%;
+    height: 95%;
+    background-color: #230094;
+    border-color: #285e8e;
+    font-size: 24pt;
+}
+
+.modal-dialog {
+    width: 100%;
+    height: 100%;
+}
+
+.modal-content {
+    text-align: center;
+    width: inherit;
+    height: 100%;
+}
+
+.modal-header {
+    height: 40%;
+}
+
+.modal-body {
+    height: 30%;
+}
+
+
+.modal-footer {
+    text-align: center;
+    height: 30%;
+}
+
+.modal-icon {
+    display: inline;
+    width: 60px;
+    height: 60px;
+}
+
+.loading-icon {
+    display: none;
+    height: 100%;
+}
+
+#navbar-icon {
+    height: 30px;
+}
+
+
+.navbar-brand {
+    display: inline;
+}

@@ -1,0 +1,131 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="
+        width=device-width,
+        initial-scale = 1.0,
+        maximum-scale = 1.0,
+        user-scalable=no" />
+    <meta name="author" content="Dick and Devon">
+    <link rel="shortcut icon" href="favicon.ico">
+    <title>Love sounds</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen" />
+
+    <!-- CSS for the footer -->
+    <link href="css/custom.css" rel="stylesheet" />
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+
+
+</head>
+<body>
+
+
+
+        <div class="navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#"><img id="navbar-icon" src="images/Antenna-256.png"> Love sounds</a>
+                </div>
+            </div>
+        </div>
+
+        <div id="intro-modal" style="display:none">
+            <div class="modal fade in" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="false" style="display: block;">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <img class="modal-icon" src="images/Antenna-256.png" />
+                            <h2 class="modal-title">Love sounds</h2>
+
+                        </div>
+                        <div class="modal-body">
+                            <button type="button" class="btn-lg btn-big">Tap to start</button>
+                        </div>
+                        <div class="modal-footer">
+                            <img id="modal-loading-icon" class="loading-icon" src="images/loading.gif" />
+                            <p>A spin-off of UrbanJobean Inc.</p>
+                        </div>
+                    </div><!-- /.modal-content -->
+                </div><!-- /.modal-dialog -->
+            </div>
+            <div class="modal-backdrop fade in"></div>
+        </div>
+
+        <div id="buttonSection" class="container">
+            <div class="row" id="button-row">
+                <div class="col-lg-3">
+                    <div class="category-label" id="category-1">
+                        <h3>Jay</h3>
+                    </div>
+                    <div class="button-column">
+                        <button class="btn-lg btn-sound" onmousedown="playSound('youCrazyJayz');" href="#">You Crazy (JZ)</button>
+                        <button class="btn-lg btn-sound" onmousedown="playSound('yourBoyJayz');" href="#">Ya Boy (JZ)</button>
+                        <button class="btn-lg btn-sound" onmousedown="playSound('gunCock');" href="#">Gun Cock</button>
+                        <button class="btn-lg btn-sound" onmousedown="playSound('gunShot');" href="#">Gun Shot</button>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="category-label" id="category-1">
+                        <h3>Category 2</h3>
+                    </div>
+                    <div class="button-column">
+                        <button class="btn-lg btn-sound" onmousedown="playSound('chaBoy');" href="#">Cha Boy</button>
+                        <button class="btn-lg btn-sound" onmousedown="playSound('buhDuhDuh');" href="#">Automatic</button>
+                        <button class="btn-lg btn-sound" onmousedown="playSound('itsAGrounder');" href="#">It's a grounder</button>
+                        <button class="btn-lg btn-sound" onmousedown="playSound('turnTwo');" href="#">Turn Two</button>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="category-label" id="category-1">
+                        <h3>Colby</h3>
+                    </div>
+                    <div class="button-column">
+                        <button class="btn-lg btn-sound" onmousedown="playSound('codyFuckWithYourBoys');" href="#">Fuck Wit Ya Boys</button>
+                        <button class="btn-lg btn-sound" onmousedown="playSound('codyDamnSon');" href="#">Damn Son</button>
+                        <button class="btn-lg btn-sound" onmousedown="playSound('woo');" href="#">Woo</button>
+                        <button class="btn-lg btn-sound" onmousedown="playSound('hiJo');" href="#">Hi Jo</button>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="category-label" id="category-1">
+                        <h3>Category 4</h3>
+                    </div>
+                    <div class="button-column">
+                        <button class="btn-lg btn-sound" onmousedown="playSound('turnDownForWhat');" href="#">Turn Down For What</button>
+                        <button class="btn-lg btn-sound" onmousedown="playSound('dickMarron');" href="#">Dick Marron</button>
+                        <button class="btn-lg btn-sound" onmousedown="playSound('chea');" href="#">chea</button>
+                        <button class="btn-lg btn-sound" onmousedown="playSound('helloMonicaAvi');" href="#">Hello Monica</button>
+                    </div>
+                </div>
+            </dv>
+
+        </div>
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- <div class="" id="modal-backgound"></div> -->
+</body>
+</html>
+
+<script src="js/audio.js"></script>
+<!-- <script src="js/scroll.js"></script> -->
+
+
+
+
+
+
